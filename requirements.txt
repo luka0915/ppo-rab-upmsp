@@ -1,0 +1,15 @@
+# Tested with Python 3.10
+# Pinned to the versions used to produce the released models/results.
+
+torch==2.6.0
+numpy==1.24.3
+pandas==2.0.3
+matplotlib==3.7.2
+openpyxl==3.1.5
+
+# Note on PyTorch:
+# The submission environment used the CUDA 12.4 build (torch==2.6.0+cu124),
+# installed from the PyTorch index:
+#   pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu124
+# The code also runs on CPU — a plain `pip install torch==2.6.0` is sufficient
+# (checkpoints are loaded with map_location='cpu').
