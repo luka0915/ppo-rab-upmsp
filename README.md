@@ -136,9 +136,15 @@ For each instance this writes a `schedule.csv`, a `convergence.csv`/`.png`
 If you use this code, please cite the accompanying paper:
 
 ```bibtex
-@article{ppo_rab,
-  title   = {Scheduling Unrelated Parallel Machines with Sequence-Dependent
-             Family Setups via DRL-Driven Rollout and Adaptive Batching},
-  note    = {Reference implementation: PPO-RAB}
+@article{KIM2026102546,
+title = {Scheduling unrelated parallel machines with sequence-dependent family setups via deep reinforcement learning-driven rollout and adaptive batching},
+journal = {Swarm and Evolutionary Computation},
+volume = {109},
+pages = {102546},
+year = {2026},
+issn = {2210-6502},
+doi = {https://doi.org/10.1016/j.swevo.2026.102546},
+url = {https://www.sciencedirect.com/science/article/pii/S221065022600266X},
+author = {Donghyeon Kim and In-Beom Park},
 }
 ```
